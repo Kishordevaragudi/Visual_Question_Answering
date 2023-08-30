@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import requests
 from io import BytesIO
 from transformers import ViltProcessor, ViltForQuestionAnswering
 
@@ -39,14 +38,15 @@ col1, col2 = st.columns(2)
 # Image upload
 with col1:
     uploaded_file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
-    st.image(uploaded_file, use_column_width=True)
+    if uploaded_file is not None:
+        st.image(uploaded_file, use_column_width=True)
 
 # Question input
 with col2:
     question = st.text_input("Question")
 
     # Process the image and question when both are provided
-    if uploaded_file and question is not None:
+    if uploaded_file is not None and question is not None:
         if st.button("Ask Question"):
             image = Image.open(uploaded_file)
             image_byte_array = BytesIO()
