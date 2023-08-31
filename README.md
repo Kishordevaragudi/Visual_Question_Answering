@@ -20,3 +20,5 @@ Deep understanding of how to utilize the ViLT model for visual question answerin
 
 ## Output result 
 
+![Screenshot 2023-08-31 100913](https://github.com/Kishordevaragudi/Visual_Question_Answering/assets/105155723/189e5e14-ba83-447e-858c-c5a52c7dd8e0)
+
