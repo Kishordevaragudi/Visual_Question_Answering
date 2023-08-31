@@ -9,10 +9,14 @@ how to implement the ViLT model in two different ways: as an API using FastAPI a
 Deep understanding of how to utilize the ViLT model for visual question answering and how to create both an API and an interactive app to leverage this powerful model.
 
 ## How run the Project
-1. Clone the github repo using a command - git clone https://github.com/Kishordevaragudi/Visual_Question_Answering.git
-2. create a virtual environment in your local system using python - conda create -p venv python==3.9 -y
-3. Install the packages by runing the requirement.txt - pip install -r requirements.txt
-4. run the file using a command - streamlit run app.py
+1. Clone the github repo using a command
+#### git clone https://github.com/Kishordevaragudi/Visual_Question_Answering.git
+2. create a virtual environment in your local system using python
+#### conda create -p venv python==3.9 -y
+3. Install the packages by runing the requirement.txt
+#### pip install -r requirements.txt
+7. run the file using a command
+#### streamlit run app.py
 
 ## Output result 
 
