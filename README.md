@@ -7,3 +7,9 @@ I am introducing the ViLT model, which combines text embeddings with a Vision Tr
 how to implement the ViLT model in two different ways: as an API using FastAPI and as an interactive app using Streamlit. FastAPI allows us to build a robust API that can receive image and text inputs and return the predicted answer. Streamlit, on the other hand, provides a user-friendly interface with an image uploader and text input field, giving users an interactive experience to ask questions about images.
 
 Deep understanding of how to utilize the ViLT model for visual question answering and how to create both an API and an interactive app to leverage this powerful model.
+
+## How run the Project
+1. git clone 
+2. create a virtual environment in your local system using python - conda create -p venv python==3.9 -y
+3. Install the packages by runing the requirement.txt - pip install -r requirements.txt
+4. 
